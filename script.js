@@ -113,7 +113,7 @@ function validateCPassword(){
         cpasswordError.innerHTML = 'Password inot strong';
         return false;
     }
-    if(cpassword = document.getElementById('contact-password').value){
+    if(cpassword != document.getElementById('contact-password').value){
         cpasswordError.innerHTML = 'Passwords do not match';
         return false;
     }
